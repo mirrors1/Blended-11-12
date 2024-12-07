@@ -1,11 +1,11 @@
 {
-  "name": "dummyjson-tasks",
+  "name": "Blended-11-12",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/dummyjson-tasks/",
+    "build": "vite build --base=/Blended-11-12/",
     "preview": "vite preview"
   },
   "devDependencies": {
