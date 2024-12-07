@@ -12,3 +12,20 @@ export function createMarkupProducts(arr) {
     )
     .join('');
 }
+
+export function createSingleProduct({
+  id,
+  title,
+  description,
+  price,
+  thumbnail,
+}) {
+  return `
+        <div class="list__item" data-id="${id}">            
+            <h2 class="list__title">${title}</h2>
+            <img src="${thumbnail}" alt="${title}">
+            <p>${description}</p>
+            <p>${price} грн</p>
+        </div>
+    `;
+}

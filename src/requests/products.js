@@ -8,3 +8,8 @@ export async function getAllProducts(url = `${baseURL}${allProductsURL}`) {
 
   return response.data.products;
 }
+
+export async function searchProduct(id) {
+  const response = await axios.get(`https://dummyjson.com/products/${id}`);
+  return response.data;
+}
